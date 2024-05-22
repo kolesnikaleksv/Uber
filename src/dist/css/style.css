@@ -57,6 +57,13 @@ nav {
   margin-top: 16px;
   display: block;
   max-width: 100%;
+  height: 40px;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+.subheader_logo img {
+  height: 100%;
 }
 .subheader_official {
   margin-top: 6px;
@@ -64,6 +71,7 @@ nav {
   color: #ffffff;
   font-style: 13px;
   font-weight: 400;
+  font-size: 14px;
 }
 .subheader_call {
   margin-top: 19px;
@@ -106,7 +114,7 @@ nav {
 .promo {
   padding: 150px 0 135px;
   min-height: 800px;
-  background-image: url("../img/bg/uber_bg.png");
+  background-image: url("../../img/bg/uber_bg.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -243,7 +251,7 @@ nav {
 .mobile {
   padding: 48px 0 79px 0;
   min-height: 864px;
-  background-image: url("../img/bg/mobile_bg.png");
+  background-image: url("../../img/bg/mobile_bg.webp");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -259,22 +267,22 @@ nav {
   position: relative;
 }
 .mobile_item_1 {
-  background: url("../img/bg/mobile_screen_1.png") center center/cover no-repeat;
+  background: url("../../img/bg/mobile_screen_1.webp") center center/cover no-repeat;
 }
 .mobile_item_2 {
-  background: url("../img/bg/mobile_screen_2.png") center center/cover no-repeat;
+  background: url("../../img/bg/mobile_screen_2.webp") center center/cover no-repeat;
 }
 .mobile_item_3 {
-  background: url("../img/bg/mobile_screen_3.png") center center/cover no-repeat;
+  background: url("../../img/bg/mobile_screen_3.webp") center center/cover no-repeat;
 }
 .mobile_item_4 {
-  background: url("../img/bg/mobile_screen_4.png") center center/cover no-repeat;
+  background: url("../../img/bg/mobile_screen_4.webp") center center/cover no-repeat;
 }
 .mobile_item_5 {
-  background: url("../img/bg/mobile_screen_5.png") center center/cover no-repeat;
+  background: url("../../img/bg/mobile_screen_5.webp") center center/cover no-repeat;
 }
 .mobile_item_6 {
-  background: url("../img/bg/mobile_screen_6.png") center center/cover no-repeat;
+  background: url("../../img/bg/mobile_screen_6.webp") center center/cover no-repeat;
 }
 .mobile_item_subtitle {
   text-transform: uppercase;
@@ -322,7 +330,7 @@ nav {
 .choice {
   padding: 57px 0 138px 0;
   min-height: 895px;
-  background-image: url("../img/bg/mobile_bg.png");
+  background-image: url("../../img/bg/mobile_bg.webp");
   background-position: center center;
   background-repeat: repeat;
   position: relative;
@@ -381,7 +389,7 @@ nav {
   width: 21px;
   height: 20px;
   display: block;
-  background-image: url("../icons/check_blue.png");
+  background-image: url("../../icons/check_blue.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -393,14 +401,14 @@ nav {
   color: #ff5656;
 }
 .require .warning .require_list li:before {
-  background-image: url("../icons/check_red.png");
+  background-image: url("../../icons/check_red.png");
 }
 
 .world {
   position: relative;
   min-height: 717px;
   padding: 49px 0;
-  background-image: url("../img/bg/map.png");
+  background-image: url("../../img/bg/map.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -569,7 +577,7 @@ footer a:hover {
     font-size: 10px;
   }
   .subheader_logo img {
-    width: 100%;
+    max-width: 100%;
   }
   .subheader_official {
     font-size: 11px;
